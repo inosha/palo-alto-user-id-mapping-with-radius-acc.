@@ -4,14 +4,11 @@ exsiting freeradius server is listening on 1813 for raduis accounting data, once
 *** 
 ![](images/Yellow%20Simple%20Signs%20Poster.gif)
 
-``
+```
 apt install python-minimal open-vm-tools git -y 
-
 git clone https://github.com/PackeTsar/radiuid.git
-
 cd radiuid
-
 python radiuid.py install
 
+```
 
-``
