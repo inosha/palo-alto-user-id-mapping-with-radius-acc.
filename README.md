@@ -4,12 +4,20 @@ exsiting freeradius server is listening on 1813 for raduis accounting data, once
 *** 
 ![](images/Yellow%20Simple%20Signs%20Poster.gif)
 
+### on OS
 ```
 apt install python-minimal open-vm-tools git -y 
 git clone https://github.com/PackeTsar/radiuid.git
 cd radiuid
 python radiuid.py install
 
+```
+### as a docker container
+```
+
+with SSH access : >docker run -it -p 1813:1813/udp -p 1813:1813/tcp -p 222:22/tcp --name radiuid -t packetsar/radiuid-ssh:latest
+
+without SSH access: >docker run -it -p 1813:1813/udp -p 1813:1813/tcp --name RADIUID -t packetsar/radiuid:latest
 ```
 *** 
 ```
