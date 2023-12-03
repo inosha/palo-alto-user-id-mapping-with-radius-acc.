@@ -1,5 +1,5 @@
-#Update: 
-###I published on medium the updated method which is more focused on third party independed method & reliablity:
+# Update: 
+### I published on medium the updated method which is more focused on third party independed method & reliablity:
 
 https://inosha.medium.com/how-to-configure-palo-alto-user-id-agent-and-eduroam-freeradius-for-seamless-user-authentication-7ba4e54ca16
 
