@@ -3,7 +3,7 @@
 
 https://inosha.medium.com/how-to-configure-palo-alto-user-id-agent-and-eduroam-freeradius-for-seamless-user-authentication-7ba4e54ca16
 
-
+=========================
 # palo-alto-user-id-mapping-with-radius-acc.
 ## HOW IT WORKS
 exsiting freeradius server is listening on 1813 for raduis accounting data, once that recive data user name and IP address (ephimeral) pull out from the accouting requests and sends to the Palo Alto API.
